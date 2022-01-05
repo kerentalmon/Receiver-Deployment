@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jun 28 12:16:38 2021
-Optimal receiver deployment search for N receivers using evolutionary
+
+Find optimal receiver deployment search for N receivers using evolutionary
 algorithms base on DEAP and SCOOP packages
 Adjusted to San-Diego thus, uses 50X40 grid with BELLHOP TL calculation
 use the 'bellhop' flag to decide if TL map is used or cylinder spread in use
@@ -12,7 +13,8 @@ Take care to adjust:
     - bound for evolutionary algo
     - number of receivers N
     - uncomment the future.map line of wishing to run on parallel cores
-    - input ga pramenters e.g. number of generations
+    - input ga parameters e.g., number of generations
+
 @author: Talmon
 """
 import array
