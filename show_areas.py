@@ -2,22 +2,23 @@
 """
 Created on Mon Jun 28 12:21:14 2021
 
-For a given receiver deployemnt show the usavle and caverage areas.
-If 'bellhop=1' use the TL map from Bellhop. Else assume cylinderical spread
+For a given receiver deployment show the usable and coverage areas.
+If 'bellhop=1' use the TL map from Bellhop. Else assume cylindrical spread
 program adjusted for SD i.e.
-grid size - accrong to the area's grid
-TL  - two options for the TL map
+grid size - according to the area's grid
+TL - two options for the TL map
     a. TL of San-Diego for typical SVP
     b. TL of San-Diego for iso SVP
 TL map was calculated using Bellhop package
 Coverage files -
-either set manually the receivers positions by variable POP or read results of
+either set manually the receivers' positions by variable POP or read results of
 'find_areas.py'. Here the results for 5 and 10 receivers for typical SVP and
 for 10 receivers for iso SVP are provided.
 TL map and Coverage results files are the
     'SD_tl_data_50x40_iso' and
     'cover_data_50x40.plk'
-respectively
+Respectively
+
 @author: Talmon
 """
 
