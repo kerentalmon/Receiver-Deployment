@@ -1,7 +1,7 @@
 # Receiver-Deployment
-Supplementary software for "Frontiers" journal paper "Optimal Deployment of Anchors for Underwater Acoustic Localization" 
+Supplementary software for "Frontiers" journal paper "Design of an Optimal Testbed for Tracking of Tagged Marine Megafauna" 
 
-This repository is supplementary software for "Frontiers" journal paper "Optimal Deployment of Anchors for Underwater Acoustic Localization".
+This repository is supplementary software for "Frontiers" journal paper "Design of an Optimal Testbed for Tracking of Tagged Marine Megafauna".
 The three programs are show_areas, find_areas and utils. Also, some reproduction data is given. 
 show_areas:
 For a given receiver deployment show the usable and coverage areas.
